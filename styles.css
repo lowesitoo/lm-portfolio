@@ -1,32 +1,53 @@
 body {
     margin: 0;
-    
+    font-family: serif;
 }
-#nav-bar {
-    position: sticky;
-    border-bottom: 1px solid white;
-    background-color: rgb(0, 0, 0);
+#wrapper {
+    width: 100%;
+    height: 100vh;
 }
 nav {
+    border-bottom: 1px solid white;
+    background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 20px;
+    padding: 0 10%;
+    
 }
-
-#github-profile {
-    font-size: 1.5rem;
+h3 {
+    color: #fff;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 0 20px;
 }
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
+}
+a:hover {
+  color: #ffa600;
+}
+
+#home-header {
+    margin-top: 20%;
+    margin-left: 10%;
+    font-size: 1rem;
+    display: inline-block;
+    
+}
+#home-header h1 {
+    font-size: 4rem;
+    margin-top: 20px;
+}
+#home-header img {
+    border-radius: 50px;
+    width: 25%;
 }
