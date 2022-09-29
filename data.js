@@ -15,8 +15,6 @@ var skillSetList = [{
     image : "CSS3.png"
 }
 ]
-
-
 function typeWriter()  {
   if (h1InitialCount < h1Text.length) {
     document.getElementById("h1-typewriter").innerHTML += h1Text.charAt(h1InitialCount);
