@@ -6,9 +6,15 @@ var h1Text2 = "I'm Luis!"
 var pText = "A Full Stack Developer";
 var speed = 50;
 
-var dataList = [{
-  
-}]
+var skillSetList = [{
+    skill : "HTML5",
+    image : "html-5.png"
+},
+{
+    skill : "CSS3",
+    image : "CSS3.png"
+}
+]
 
 
 function typeWriter()  {
