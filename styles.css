@@ -44,6 +44,7 @@ a:hover {
 }
 #home-header h1 {
     font-size: 4.5rem;
+    height: 5rem;
 }
 #title-text span {
     color: black; 
@@ -99,11 +100,15 @@ button:active {
     font-weight: bold;
     justify-content: center;
 }
+#my-services h2{
+    display: flex;
+    justify-content: center;
 
-<!-- HTML !-->
-<button class="button-54" role="button">Button 54</button>
-@media (min-width: 768px) {
-  .button-54 {
-    padding: 0.25em 0.75em;
-  }
+}
+#my-services ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
