@@ -2,11 +2,9 @@ body {
     margin: 0;
     font-family: serif;
     color: black;
-
 }
 
 nav {
-    
     display: flex;
     border-bottom: 1px solid white;
     background-color: black;
@@ -47,17 +45,6 @@ a:hover {
     font-size: 4.5rem;
     height: 5rem;
 }
-#title-text span {
-    color: black; 
-    width: 0;
-    z-index: -1;
-    background-color: white;
-    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-    transition: background-color .5s;
-}
-#title-text span:hover {
-    background-color: wheat;
-}
 #home-header img {
     border-radius: 50px;
     width: 25%;
@@ -78,6 +65,7 @@ button {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+
 }
 button:active {
     box-shadow: 0px 0px 0px 0px;
