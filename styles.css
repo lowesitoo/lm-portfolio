@@ -5,18 +5,21 @@ body {
 }
 
 nav {
-    display: flex;
+    display: inline-block;
     border-bottom: 1px solid white;
     background-color: black;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 5%;
+    
 }
 h3 {
     color: #fff;
     text-decoration: none;
     font-size: 1.5rem;
+    margin-left: 5%;
+    
 }
 nav ul li {
     display: inline-block;
@@ -31,7 +34,10 @@ nav ul li a {
 a:hover {
   color: #ff004f;
 }
-
+#title-text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
 #home-header {
     display: flex;
     justify-content: space-between;
@@ -39,7 +45,6 @@ a:hover {
     margin-top: 5%;
     margin-left: 10%;
     font-size: 1rem;
-    
 }
 #home-header h1 {
     display: inline;
