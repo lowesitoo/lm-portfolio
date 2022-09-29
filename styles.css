@@ -11,7 +11,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 10%;
+    padding: 0 5%;
 }
 h3 {
     color: #fff;
@@ -42,6 +42,7 @@ a:hover {
     
 }
 #home-header h1 {
+    display: inline;
     font-size: 4.5rem;
     height: 5rem;
 }
