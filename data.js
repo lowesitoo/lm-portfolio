@@ -1,7 +1,7 @@
-  var pInitialCount= 0;
+var pInitialCount= 0;
 var pText = "Full Stack Developer";
 var speed = 50;
-
+var sectionList = ['s1','s2','s3','s4']
 var skillSetList = [{
     skill : "HTML5",
     image : "html-5.png"
@@ -20,8 +20,19 @@ function typeWriter()  {
   }
 }
 function randomColor() {
-    return "#" + Math.floor(Math.random() * 16777215).toString(16);
-   
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+      color += Math.floor(Math.random() * 10);
+  }
+  return color;
+
+    // return "#" + Math.floor(Math.random() * 16777215).toString(16);
+}
+function changeColor() {
+  for (let i = 0; i < sectionList.length; i++) {
+    let currentSection = document.getElementById(sectionList[i]);
+    currentSection.style.backgroundColor = randomColor();
+  }
 }
 // Scroll effect
 const TIME_OUT = 600 // It should be the same transition time of the sections
