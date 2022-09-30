@@ -1,7 +1,32 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+@keyframes pulse {
+0% {
+    transform: translateY(0px);
+}
+50% {
+    transform: translateY(25px);
+}
+100% {
+    transform: translateY(0px);
+}
+}
 body {
     margin: 0;
-    font-family: serif;
-    color: black;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden scroll;
+    -ms-overflow-style: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.wrapper {
+    width: 100%;
+    height: calc(100vh * 3);
+    position: relative;
 }
 
 nav {
