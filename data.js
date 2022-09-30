@@ -24,8 +24,7 @@ function randomColor() {
    
 }
 function changeBackground() {
-    const body = document.getElementsByTagName("div");
-    body.style.backgroundColor = `${randomColor()}`;
+   
 
 }
 

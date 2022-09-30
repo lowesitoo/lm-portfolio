@@ -9,8 +9,7 @@
         <script src="https://kit.fontawesome.com/4328681365.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body onload="typeWriter()">
-        <div id="wrapper">
+    <body onload="typeWriter()" onscroll="randomColor()">
             <!-- Nav Bar -->
             <div id="nav-bar">
                 <nav>
@@ -23,27 +22,38 @@
                     </ul>
                 </nav>
             </div>
+            <div class="layout">
+            <div class="section-stick">
+                <div class="stick active"></div>
+            </div>
             <!-- Home  -->
-            <div id="home-header">
-                <div id="title-text">
-                    <h1>Hey there! I'm Luis!</h1>
-                    <p id="p-typewriter"></p>
-                    <button class="third">HIRE ME!</button>
+            <section class="s1">
+                <div class="home">
+                <div id="home-header">
+                    <div id="title-text">
+                        <h1>Hey there! I'm Luis!</h1>
+                        <p id="p-typewriter"></p>
+                        <button class="third">HIRE ME!</button>
+                    </div>
+                        <img src="/images/profile_pic.jpg" alt="luis">
                 </div>
-                    <img src="/images/profile_pic.jpg" alt="luis">
-            </div>
-            <div id="about-me">
-                <div id="about-container">
-                    <h2>About me!</h2>
-                <div id="about-content-wrapper">
-                    <p> based from Philippines, passionate about being a software engineer,<br>
-                        I decided to pursue what I love, started by enrolling in a Full Stack Bootcamp<br>
-                        to drastically improve my skills, enabling me to be qualified in the industry.<br>
-                        Now I’m here!</p>
                 </div>
-                
+            </section>
+            <section class="s2">
+                <div id="about-me">
+                    <div id="about-container">
+                        <h2>About me!</h2>
+                        <div id="about-content-wrapper">
+                            <p> based from Philippines, passionate about being a software engineer,<br>
+                                I decided to pursue what I love, started by enrolling in a Full Stack Bootcamp<br>
+                                to drastically improve my skills, enabling me to be qualified in the industry.<br>
+                                Now I’m here!
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
+            
             <div id="my-services">
                 <h2>My Skillset</h2>
                 <ul>
@@ -59,19 +69,10 @@
                         <li><i class="fa-solid fa-gamepad"></i></i><br>Game Development</li>
                         <img src="/images/csharp.png" alt="">
                     </div>
-                    
-                    
                 </ul>
             </div>
-
-
-
-        </div>
-        
-        
-        
-        
-       
+            <div id="work-experience">
+            </div>
         <script src="/data.js" async defer></script>
     </body>
 </html>
