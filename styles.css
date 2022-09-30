@@ -10,26 +10,26 @@ nav {
     background-color: black;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 0 5%;
-    
 }
 h3 {
     color: #fff;
     text-decoration: none;
     font-size: 1.5rem;
-    margin-left: 5%;
-    
 }
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 0 20px;
+    padding: .3rem;
+
+
 }
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
+
 }
 a:hover {
   color: #ff004f;
@@ -40,7 +40,7 @@ a:hover {
 }
 #home-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap:  wrap;
     margin-top: 5%;
     margin-left: 10%;
@@ -60,6 +60,7 @@ a:hover {
     font-size: 1.5rem;
 }
 button {
+    max-width: 100%;
     font-size: 1rem;
     letter-spacing: 2px;
     padding: 1rem 2rem;
@@ -79,12 +80,13 @@ button:active {
     left: 5px;
     }
 #about-me {
-    display: grid;
     margin-top: 5%;
-    justify-content: center;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5rem;
     background-color: wheat;
     padding-bottom: 2rem;
+    flex-wrap: wrap;;
 }
 #about-me h2 {
     display: flex;
@@ -94,11 +96,11 @@ button:active {
 #about-me p {
     font-size: 1.5rem;
     font-weight: bold;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #my-services {
     margin-top: 3rem;
-    
 }
 #my-services h2{
     display: flex;
@@ -108,10 +110,11 @@ button:active {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 #my-services ul div {
+
     background-color: rgb(180, 180, 180);
     border-radius: 10px;
     padding: 1rem;
@@ -119,5 +122,8 @@ button:active {
 }   
 #my-services ul div:hover {
     background-color: wheat;
-    
+}
+#my-services ul div img {
+    width: 100%;
+    height: auto;
 }
