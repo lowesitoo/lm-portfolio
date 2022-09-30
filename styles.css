@@ -1,3 +1,7 @@
+:root {
+    --color-white: #fff;
+    --time-animation: 0.6s;
+  }
 html {
     scrollbar-width: none;
 }
