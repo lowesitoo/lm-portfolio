@@ -66,7 +66,7 @@ button:active {
   display: flex;
   justify-content: center;
 }
-.s3 ul div {
+.skill-div {
   border-radius: 10px;
   background-color: #cccccc;
   background: transparent ;
@@ -207,6 +207,7 @@ body::-webkit-scrollbar {
 
  .s3 {
   z-index: 2;
+  background-color: black;
 }
 
  .s4 {
