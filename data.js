@@ -99,5 +99,5 @@ const TIME_OUT = 600 // It should be the same transition time of the sections
         }
 
         // Keep scrollbar in the middle of the viewport
-        window.scroll(0, window.screen.height)
+        window.scroll(0, 0)
       }
