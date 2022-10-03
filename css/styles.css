@@ -12,37 +12,7 @@
   margin: auto;
   
 }
-#title-text {
-  position: absolute;
-  top: 40vh;
-  right: 0;
-  left: 0;
-  flex-wrap: wrap;
-}
-#title-text li {
-  list-style: none;
-  display: flex;
-}
-#home-header {
-    display: flex;
-    flex-wrap:  wrap;
-    font-size: 1rem;
-}
-#home-header h1 {
-    display: inline;
-    font-size: 4.5rem;
-    max-height: 5rem;
-   
-}
-#home-header h1 :hover{ 
-  position: relative; 
-  top: -5px;
-} 
-#home-header img {
-    border-radius: 50px;
-    max-width: 25%;
-    margin: auto;
-}
+
 button {
     max-width: 100%;
     font-size: 1rem;
