@@ -69,11 +69,10 @@ button:active {
 .skill-div {
   border-radius: 10px;
   background-color: #cccccc;
-  background: transparent ;
-  padding: 0 1rem;
-  display: inline-block;
+  padding: 0 2rem;
+  display: flex;
   flex-wrap: wrap;
-  
+
 }
 .s3 ul div h3 {
   font-size: 2rem;
@@ -193,25 +192,27 @@ body::-webkit-scrollbar {
   animation: pulse 1.4s linear infinite normal;
 }
 
- .s1 {
+.layout .s1 {
   transform: translateY(0);
   z-index: 4;
-  background-image: url("/images/bg.webp");
+  background-image: url("images/bg.webp");
   background-size: cover;
 }
 
- .s2 {
+.layout .s2 {
   z-index: 3;
-  background: linear-gradient(to left top ,pink,gray)
+  background: linear-gradient(to left top ,pink,gray);
 }
 
- .s3 {
+.layout .s3 {
   z-index: 2;
   background-color: black;
 }
+  
 
- .s4 {
+.layout .s4 {
   z-index: 1;
+  background: linear-gradient(to left top ,pink,gray);
 }
 
 #author {

@@ -1,4 +1,4 @@
-var pInitialCount= 0;
+var pInitialCount = 0;
 var pText = "Full Stack Developer";
 var speed = 50;
 var sectionList = ['s1','s2','s3','s4']
@@ -11,7 +11,6 @@ var skillSetList = [{
     image : "CSS3.png"
 }
 ]
-
 function typeWriter()  {
   if (pInitialCount < pText.length) {
     document.getElementById("p-typewriter").innerHTML += pText.charAt(pInitialCount);
@@ -38,13 +37,12 @@ function changeColor() {
 const TIME_OUT = 600 // It should be the same transition time of the sections
       const body = document.querySelector('body')
       const sectionsQty = document.querySelectorAll('section').length
+      console.log('SOEMHING', sectionsQty)
       const sectionStick = document.querySelector('.section-stick')
 
       let startFlag = true
       let initialScroll = window.scrollY
-      let qty = 1,
-        main = null,
-        next = null
+      let qty = 1, main = null, next = null
 
       // Add child elements in .section-stick as number of sections exist
       Array(sectionsQty)

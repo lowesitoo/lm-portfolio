@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>My Portfolio</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://kit.fontawesome.com/4328681365.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="styles.css">
-       
-    </head>
-    <body onload="typeWriter();">
-        <div class="layout">
-            <div class="section-stick">
-              <div class="stick active"></div>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>My Portfolio</title>
+      <meta name="description" content="Antonio Luis Mrtinez | Full Stack Developer">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://kit.fontawesome.com/4328681365.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <!-- <body onload="typeWriter();"> -->
+    <div class="layout">
+      <div class="section-stick">
+        <div class="stick active"></div>
+      </div>
+      <!-- <div class="home"> -->
+        <section class="s1" id="s1">
+          <div id="home-header">
+              <div id="title-text">
+                  <h1>Hey there! I'm <span>Luis!</span></h1>
+                  <p id="p-typewriter"></p>
+                  <button class="third">HIRE ME!</button>
+                  <li>
+                    <ul>
+                      <a href="www.facebook.com/basedshrewd">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                      </a>
+                    </ul>
+                  </li>
+              </div>
+              <img src="images/profile_pic.jpg" alt="luis-image">
+          </div>
+        </section>
+      <!-- </div> -->
+      <section class="s2" id="s2">
+        <div id="about-me">
+          <div id="about-container">
+            <h2>About me!</h2>
+            <div id="about-content-wrapper">
+                <p>
+                  based from Philippines, passionate about being a software engineer,<br>
+                  I decided to pursue what I love, started by enrolling in a Full Stack Bootcamp<br>
+                  to drastically improve my skills, enabling me to be qualified in the industry.<br>
+                </p>
             </div>
-      
-              <div class="home">
-                <!-- Home  -->
-                <section class="s1" id="s1">
-                  <div id="home-header">
-                      <div id="title-text">
-                          <h1>Hey there! I'm <span>Luis!</span></h1>
-                          <p id="p-typewriter"></p>
-                          <button class="third">HIRE ME!</button>
-                          <li>
-                            <ul>
-                              <a href="www.facebook.com/basedshrewd"><i class="fa-brands fa-facebook-messenger"></i></a>
-                            </ul>
-                          </li>
-                          
-                      </div>
-                          <img src="/images/profile_pic.jpg" alt="luis">
-                  </div>
-              </div>
-            </section>
-            <section class="s2" id="s2">
-              <div id="about-me">
-                <div id="about-container">
-                  <h2>About me!</h2>
-                  <div id="about-content-wrapper">
-                      <p> based from Philippines, passionate about being a software engineer,<br>
-                          I decided to pursue what I love, started by enrolling in a Full Stack Bootcamp<br>
-                          to drastically improve my skills, enabling me to be qualified in the industry.<br>
-                      </p>
-                  </div>
-              </div>
-              </div>
-            </section> 
-            <section class="s3" id="s3">
-              <ul>
-                <li>
-                  <div>
-                      <i class="fa-solid fa-code"></i>
-                      <h3>Front End Development</h3>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                      <i class="fa-solid fa-code"></i>
-                      <h3>Back End Development</h3>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                      <i class="fa-solid fa-gamepad"></i>
-                      <h3>Game Development</h3>
-                  </div>
-                </li>
-              </ul>
-            </section> 
-            <section class="s4" id="s4">
-            </section>
-        <script src="/data.js" async defer></script>
-    </body>
+          </div>
+        </div>
+      </section> 
+      <section class="s3" id="s3">
+        <ul>
+          <li>
+            <div class="skill-div">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+            </div>
+          </li>
+          <li>
+            <div class="skill-div">
+                <i class="fa-solid fa-code"></i>
+                <h3>Backend Development</h3>
+            </div>
+          </li>
+          <li>
+            <div class="skill-div">
+                <i class="fa-solid fa-gamepad"></i>
+                <h3>Game Development</h3>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="s4" id="s4">
+        <div>
+        </div>
+      </section>
+    </div>
+    <script src="data.js" async defer></script>
+  </body>
 </html>
