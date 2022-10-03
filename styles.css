@@ -2,7 +2,7 @@
 #title-text {
     margin: auto;
 }
-#title-text ul {
+#title-text li {
   list-style: none;
   display: inline-block;
 }
@@ -65,19 +65,26 @@ button:active {
   list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
 }
 .skill-div {
   border-radius: 10px;
   background-color: #cccccc;
   padding: 0 2rem;
   display: flex;
-  flex-wrap: wrap;
-
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 1rem;
+}
+.skill-div i {
+  size: .1rem;
 }
 .s3 ul div h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
+/* Particles.js */
 
 /* Scroll Effect */
 
@@ -195,13 +202,17 @@ body::-webkit-scrollbar {
 .layout .s1 {
   transform: translateY(0);
   z-index: 4;
-  background-image: url("images/bg.webp");
-  background-size: cover;
+  background: linear-gradient(to left top,#533483, #E94560);
+  
+  
 }
 
 .layout .s2 {
   z-index: 3;
-  background: linear-gradient(to left top ,pink,gray);
+  background-image: url("images/bg.webp");
+  backdrop-filter: saturate(180%) blur(10px);
+  background-size: cover;
+  
 }
 
 .layout .s3 {

@@ -7,25 +7,26 @@
       <meta name="description" content="Antonio Luis Mrtinez | Full Stack Developer">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <script src="https://kit.fontawesome.com/4328681365.js" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
-  <!-- <body onload="typeWriter();"> -->
+  <!-- <body> -->
+  <body onload="typeWriter();">
     <div class="layout">
       <div class="section-stick">
         <div class="stick active"></div>
       </div>
       <!-- <div class="home"> -->
         <section class="s1" id="s1">
+          
           <div id="home-header">
               <div id="title-text">
                   <h1>Hey there! I'm <span>Luis!</span></h1>
                   <p id="p-typewriter"></p>
-                  <button class="third">HIRE ME!</button>
+                  <button class="third">HIRE ME!</button><br>
                   <li>
                     <ul>
                       <a href="www.facebook.com/basedshrewd">
-                        <i class="fa-brands fa-facebook-messenger"></i>
+                      <i class="fa-brands fa-facebook-messenger"></i>
                       </a>
                     </ul>
                   </li>
@@ -64,17 +65,18 @@
           </li>
           <li>
             <div class="skill-div">
-                <i class="fa-solid fa-gamepad"></i>
+                <i class="fa-solid fa-gamepad fa-2xs"></i>
                 <h3>Game Development</h3>
             </div>
           </li>
         </ul>
       </section>
       <section class="s4" id="s4">
-        <div>
-        </div>
+        <div id="particles-js"></div>
       </section>
     </div>
-    <script src="data.js" async defer></script>
+    <script src="scripts/data.js" async defer></script>
+    <script src="particles.json"></script>
+    <script src="scripts/app.js"></script>
   </body>
 </html>
