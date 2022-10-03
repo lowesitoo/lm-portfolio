@@ -1,16 +1,27 @@
 #partilces-js {
-  margin: 0;
-  z-index: 5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
 }
 #name-border {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  width: 75vh;
+  margin: auto;
+  
 }
 #title-text {
-    margin: auto;
+  position: absolute;
+  top: 40vh;
+  right: 0;
+  left: 0;
+  flex-wrap: wrap;
 }
 #title-text li {
   list-style: none;
-  display: inline-block;
+  display: flex;
 }
 #home-header {
     display: flex;
