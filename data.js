@@ -31,7 +31,7 @@ function randomColor() {
 function changeColor() {
   for (let i = 0; i < sectionList.length; i++) {
     let currentSection = document.getElementById(sectionList[i]);
-    currentSection.style.backgroundColor = linear-gradient(randomColor());
+    currentSection.style.backgroundColor = randomColor();
   }
 }
 // Scroll effect

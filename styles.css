@@ -77,7 +77,6 @@ button:active {
 }
 .s3 ul div h3 {
   font-size: 2rem;
-  
 }
 
 
@@ -111,7 +110,6 @@ body {
   font-family: sans-serif;
   overflow: hidden scroll;
   -ms-overflow-style: none;
-  background-color: linear-gradient(90deg, red, yellow);
 }
 
 body::-webkit-scrollbar {
@@ -199,11 +197,12 @@ body::-webkit-scrollbar {
   transform: translateY(0);
   z-index: 4;
   background-image: url("/images/bg.webp");
+  background-size: cover;
 }
 
  .s2 {
   z-index: 3;
-  
+  background: linear-gradient(to left top ,pink,gray)
 }
 
  .s3 {
