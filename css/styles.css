@@ -6,6 +6,21 @@
     left: 0;
     overflow: hidden;
 }
+#home-header {
+  position: absolute;
+  top: 30vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  
+}
+#home-header h1 {
+  font-size: 2rem;
+}
+#home-header p, span {
+  font-size: 1rem;
+}
 #name-border {
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   width: 75vh;
