@@ -1,4 +1,10 @@
-
+#partilces-js {
+  margin: 0;
+  z-index: 5;
+}
+#name-border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+}
 #title-text {
     margin: auto;
 }
@@ -85,6 +91,13 @@ button:active {
 }
 
 /* Particles.js */
+#particles-js{
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
 
 /* Scroll Effect */
 
@@ -209,7 +222,7 @@ body::-webkit-scrollbar {
 
 .layout .s2 {
   z-index: 3;
-  background-image: url("images/bg.webp");
+  background-image: url("../images/bg.webp");
   backdrop-filter: saturate(180%) blur(10px);
   background-size: cover;
   
@@ -223,7 +236,6 @@ body::-webkit-scrollbar {
 
 .layout .s4 {
   z-index: 1;
-  background: linear-gradient(to left top ,pink,gray);
 }
 
 #author {
