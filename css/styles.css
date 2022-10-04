@@ -79,7 +79,7 @@ button:active {
   flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
-  margin: 0 2git arem;
+  margin: 0 2rem;
   transition:  transform .5s;
   
 }
