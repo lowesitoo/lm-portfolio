@@ -76,6 +76,12 @@ button:active {
   flex-direction: row;
   align-items: center;
   margin: 0 1rem;
+  transition:  transform .5s;
+}
+.skill-div:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .skill-div i {
@@ -90,7 +96,6 @@ button:active {
   width: 100%;
   height: 80vh;
   background-size: cover;
-
   background-repeat: no-repeat;
 }
 
