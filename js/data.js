@@ -1,4 +1,5 @@
 var pInitialCount = 0;
+var speed = 250;
 var pText = "Full Stack Developer";
 var sectionList = ['s1','s2','s3','s4']
 var skillSetList = [{
@@ -19,17 +20,18 @@ function typeWriter()  {
 }
 
 // Blinking Cursor
-var cursor = true;
-var speed = 250;
-  setInterval(() => {
-    if(cursor) {
-      document.getElementById('cursor').style.opacity = 0;
-      cursor = false;
-    }else {
-      document.getElementById('cursor').style.opacity = 1;
-      cursor = true;
-    }
-  }, speed);
+// var cursor = true;
+// var speed = 250;
+//   setInterval(() => {
+//     if(cursor) {
+//       document.getElementById('cursor').style.opacity = 0;
+//       cursor = false;
+//     }else {
+//       document.getElementById('cursor').style.opacity = 1;
+//       cursor = true;
+//     }
+//   }, speed);
+
 // Blur on scroll
 // $(document).ready(function() {
 //   $(window).scroll(function(e) {
