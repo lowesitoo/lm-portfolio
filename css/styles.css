@@ -241,7 +241,7 @@ body::-webkit-scrollbar {
 
 .layout .s4 {
   z-index: 1;
-  background: linear-gradient(to left top,#533483, #E94560);
+  color:black;
 }
 
 #author {
