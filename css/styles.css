@@ -212,26 +212,25 @@ body::-webkit-scrollbar {
   transform: translateY(0);
   z-index: 4;
   background: linear-gradient(to left top,#533483, #E94560);
-  
-  
 }
 
 .layout .s2 {
   z-index: 3;
   background-image: url("../images/bg.webp");
-  backdrop-filter: saturate(180%) blur(10px);
+  opacity: 90%;
   background-size: cover;
-  
 }
+
 
 .layout .s3 {
   z-index: 2;
-  background-color: black;
+  background: linear-gradient(to left top,#533483, #E94560);
 }
   
 
 .layout .s4 {
   z-index: 1;
+  background: linear-gradient(to left top,#533483, #E94560);
 }
 
 #author {
