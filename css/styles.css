@@ -196,6 +196,7 @@ body::-webkit-scrollbar {
 
   text-align: center;
   color: var(--color-white);
+  font-size: 40px;
   font-weight: 600;
 
   transform: translateY(100vh);
