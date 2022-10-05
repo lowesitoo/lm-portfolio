@@ -109,3 +109,8 @@ const TIME_OUT = 600 // It should be the same transition time of the sections
         // Keep scrollbar in the middle of the viewport
         window.scroll(0, window.screen.height)
       }
+
+function yearNow() {
+  return new Date().toLocaleString('en-us',{year:'numeric'});
+}
+document.getElementById('footer-copy').innerHTML = "Antonio Luis Martinez © " + yearNow() +" | "+ "All rights reserved";
