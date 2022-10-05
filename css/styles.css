@@ -19,7 +19,9 @@
 #home-header p, span {
   font-size: 1rem;
 }
-
+#title-text {
+  display: inline-block;
+}
 #name-border {
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   width: 75vh;
@@ -75,6 +77,7 @@ button:active {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  margin-top: 10%;
   
 }
 .s3 ul div h3 {

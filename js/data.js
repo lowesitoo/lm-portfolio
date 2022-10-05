@@ -45,7 +45,7 @@ var cursor = true;
 const TIME_OUT = 600 // It should be the same transition time of the sections
       const body = document.querySelector('body')
       const sectionsQty = document.querySelectorAll('section').length
-      console.log('SOEMHING', sectionsQty)
+      console.log('TEST', true)
       const sectionStick = document.querySelector('.section-stick')
 
       let startFlag = true
