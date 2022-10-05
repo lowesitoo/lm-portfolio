@@ -232,7 +232,6 @@ body::-webkit-scrollbar {
 
 .layout .s2 {
   z-index: 3;
-  
 }
  #about-me {
   width: 100%;
@@ -241,7 +240,6 @@ body::-webkit-scrollbar {
   background-size: cover;
   opacity: 5;
   /* backdrop-filter: blur(10px); 
-
   filter: blur(1px);
   -webkit-filter: blur(1px);  */
 }
@@ -249,9 +247,7 @@ body::-webkit-scrollbar {
 .layout .s3 {
   z-index: 2;
   color: rgb(29, 29, 29);
-  
 }
-  
 
 .layout .s4 {
   z-index: 1;
