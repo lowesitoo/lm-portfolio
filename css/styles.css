@@ -79,6 +79,17 @@ button:active {
   justify-content: center;
   flex-wrap: nowrap;
 }
+.s3 #title-skills {
+  font-weight: 400;
+  font-size: 4rem;
+}
+.s3 #title-skills strong {
+  font-weight: 700;
+}
+.s3 span {
+  font-size: 4rem;
+  color: #E94560;
+}
 .skill-div {
   border-radius: 10px;
   border: 1px solid rgb(29, 29, 29);;
