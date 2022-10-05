@@ -250,6 +250,7 @@ body::-webkit-scrollbar {
   background-image: url("../images/bg.webp"); 
   background-size: cover;
   opacity: 5;
+  padding-top: 5%;
   /* backdrop-filter: blur(10px); 
   filter: blur(1px);
   -webkit-filter: blur(1px);  */
@@ -259,7 +260,10 @@ body::-webkit-scrollbar {
   z-index: 2;
   color: rgb(29, 29, 29);
 }
-
+.section3-wrapper {
+  
+  flex-wrap: wrap;
+}
 .layout .s4 {
   z-index: 1;
   background-color: var(--color-white);
