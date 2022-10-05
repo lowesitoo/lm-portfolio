@@ -81,7 +81,7 @@ button:active {
 }
 .skill-div {
   border-radius: 10px;
-  border: 1px solid white;
+  border: 1px solid rgb(29, 29, 29);;
   padding: 0 1rem;
   display: flex;
   flex-wrap: nowrap;
@@ -232,6 +232,7 @@ body::-webkit-scrollbar {
 
 .layout .s2 {
   z-index: 3;
+  
 }
  #about-me {
   width: 100%;
@@ -247,15 +248,28 @@ body::-webkit-scrollbar {
 
 .layout .s3 {
   z-index: 2;
-  background: linear-gradient(to left top,#533483, #E94560);
+  color: rgb(29, 29, 29);
+  
 }
   
 
 .layout .s4 {
   z-index: 1;
-  color:black;
+  background-color: var(--color-white);
 }
 
+#contact-section {
+  display: flex;
+  align-items: flex-end;
+  bottom: 0;
+  height: 25%;
+  width: 100%;
+  background-color: #533483;
+}
+#footer-section {
+  
+  background-color: rgb(68, 68, 68);
+}
 #author {
   margin: auto;
   position: fixed;
