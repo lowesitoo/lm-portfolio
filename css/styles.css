@@ -79,14 +79,14 @@ button:active {
   justify-content: center;
   flex-wrap: nowrap;
 }
-.s3 #title-skills {
+ .title {
   font-weight: 400;
   font-size: 4rem;
 }
-.s3 #title-skills strong {
+.title .highlight-strong {
   font-weight: 700;
 }
-.s3 span {
+.seperator-symbol {
   font-size: 4rem;
   color: #E94560;
 }
