@@ -56,13 +56,8 @@ button:active {
       font-size: .2rem;
     }   
 }
-#about-content {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
+
+
 #about-content-wrapper p {
   font-size: .2rem;
   display: flex;
@@ -72,7 +67,16 @@ button:active {
 #about-me p {
   font-size: 1.5rem;
 }
-
+#about-container {
+  display:  block;
+  position: relative;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
 .s3 ul div h3 {
   font-size: 1.5rem;
 }
@@ -267,7 +271,6 @@ body::-webkit-scrollbar {
   color: rgb(29, 29, 29);
 }
 .section3-wrapper {
-  
   flex-wrap: wrap;
 }
 .layout .s4 {
