@@ -69,17 +69,7 @@ button:active {
 #about-me p {
   font-size: 1.5rem;
 }
-#about-container {
-  display:  block;
-  position: relative;
-  max-width: 640px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 10%;
-  
-}
+
 .s3 ul div h3 {
   font-size: 1.5rem;
 }
@@ -257,6 +247,7 @@ body::-webkit-scrollbar {
   background-image: url("../images/bg.webp"); 
   background-size: cover;
 }
+
  #about-me {
   width: 100%;
   height: 100%;
@@ -267,6 +258,23 @@ body::-webkit-scrollbar {
   /* backdrop-filter: blur(10px); 
   filter: blur(1px);
   -webkit-filter: blur(1px);  */
+}
+#about-container {
+  display:  block;
+  position: relative;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: start;
+  word-spacing: .2rem;
+  
+}
+.about-hyperlinks {
+  color: #000;
+  background-color: azure;
+  font-size: 24px;
 }
 
 .layout .s3 {
