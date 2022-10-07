@@ -238,7 +238,7 @@ body::-webkit-scrollbar {
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   opacity: 5;
-  margin-top: 5%;
+  padding-top: 5%;
 }
 #about-container {
   display:  block;
