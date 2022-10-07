@@ -28,25 +28,7 @@
   margin: auto;
 }
 
-button {
-    max-width: 100%;
-    font-size: 1rem;
-    letter-spacing: 2px;
-    padding: 1rem 2rem;
-    color: black;
-    cursor: pointer;
-    border: 5px solid;
-    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-    position: relative;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
-button:active {
-    box-shadow: 0px 0px 0px 0px;
-    top: 5px;
-    left: 5px;
-}
+
 #about-me h2 {
     display: flex;
     justify-content: center;
@@ -322,6 +304,7 @@ body::-webkit-scrollbar {
 }
 #footer-section strong {
   font-size: 4rem;
+  color: #E94560;
 }
 #author {
   margin: auto;
