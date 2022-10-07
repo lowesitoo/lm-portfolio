@@ -303,20 +303,25 @@ body::-webkit-scrollbar {
   padding-right: 2rem;
 }
 #footer-section {
+  
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
   width: 100%;
+  height: 6%;
   color: white;
   font-weight: bold;
   display: flex;
   text-align: left;
-  padding: 0 2rem;
-  justify-content: space-between;
+  padding: 1rem 2rem;
+  justify-content: space-around;
   align-items: center;
   background-color: rgb(68, 68, 68);
-  font-size: 1.5  rem;
+  font-size: 1rem;
+}
+#footer-section strong {
+  font-size: 4rem;
 }
 #author {
   margin: auto;
