@@ -238,10 +238,7 @@ body::-webkit-scrollbar {
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   opacity: 5;
-  padding-top: 5%;
-  /* backdrop-filter: blur(10px); 
-  filter: blur(1px);
-  -webkit-filter: blur(1px);  */
+  margin-top: 5%;
 }
 #about-container {
   display:  block;
@@ -276,7 +273,12 @@ a {
   color: rgb(29, 29, 29);
 }
 .section3-wrapper {
+  height: 100%;
+  width: 100%;
+  display: block;
   flex-wrap: wrap;
+  margin-top: 5%;
+
 }
 .layout .s4 {
   z-index: 1;
