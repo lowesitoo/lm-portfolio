@@ -1,6 +1,7 @@
 var pInitialCount = 0;
 var speed = 250;
-var pText = "Full Stack Developer";
+var typeSpeed = 175;
+var pText = "Full Stack Developer | ILO";
 var sectionList = ['s1','s2','s3','s4']
 var skillSetList = [{
     skill : "HTML5",
@@ -15,7 +16,7 @@ function typeWriter()  {
   if (pInitialCount < pText.length) {
     document.getElementById("p-typewriter").innerHTML += pText.charAt(pInitialCount);
     pInitialCount++;
-    setTimeout(typeWriter, speed);
+    setTimeout(typeWriter, typeSpeed);
   }
 }
 
@@ -26,7 +27,8 @@ var cursor = true;
     if(cursor) {
       document.getElementById('cursor').style.opacity = 0;
       cursor = false;
-    }else {
+    }
+    else {
       document.getElementById('cursor').style.opacity = 1;
       cursor = true;
     }
