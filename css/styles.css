@@ -27,21 +27,23 @@
   width: 75vh;
   margin: auto;
 }
-
-
 #about-me h2 {
     display: flex;
     justify-content: center;
     font-size: 4rem;
 }
-
+button {
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 5px;
+  width: 4rem;
+  height: 4rem;
+}
 @media screen and (max-width: 600px){
     #about-content-wrapper p {
       font-size: .2rem;
     }   
 }
-
-
 #about-content-wrapper p {
   font-size: .2rem;
   display: flex;

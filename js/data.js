@@ -45,7 +45,6 @@ var cursor = true;
 const TIME_OUT = 600 // It should be the same transition time of the sections
       const body = document.querySelector('body')
       const sectionsQty = document.querySelectorAll('section').length
-      console.log('TEST', true)
       const sectionStick = document.querySelector('.section-stick')
 
       let startFlag = true
@@ -58,9 +57,6 @@ const TIME_OUT = 600 // It should be the same transition time of the sections
         .forEach(() => {
           sectionStick.innerHTML = sectionStick.innerHTML + '<div class="stick"></div>'
         })
-
-      console.log('SLIDE', qty)
-
       // Listening to scroll event
       window.onscroll = () => {
         if (startFlag) {
@@ -88,28 +84,22 @@ const TIME_OUT = 600 // It should be the same transition time of the sections
 
               qty--
             }
-
             // Scroll progressbar
             const active = document.querySelector('.section-stick .stick.active')
             active.style.top = (62 + 30) * (qty - 1) + 'px'
           }
-
-          console.log('SLIDE', qty)
-
           // Wait for the scrolling to finish to reset the values
           setTimeout(() => {
             initialScroll = this.scrollY
             startFlag = true
             body.style.overflowY = 'scroll' // Unlock scroll
           }, TIME_OUT)
-
           startFlag = false
         }
-
         // Keep scrollbar in the middle of the viewport
         window.scroll(0, window.screen.height)
       }
-
+      // Footer
 function yearNow() {
   return new Date().toLocaleString('en-us',{year:'numeric'});
 }
