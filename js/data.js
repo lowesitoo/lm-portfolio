@@ -33,17 +33,6 @@ var cursor = true;
       cursor = true;
     }
   }, speed);
-
-// Blur on scroll
-// $(document).ready(function() {
-//   $(window).scroll(function(e) {
-//       var s = $(window).scrollTop(),
-//           opacityVal = (s / 200);
-
-//       $('.blurred-image').css('opacity', opacityVal);
-//   });
-// });
-// Scroll effect
 const TIME_OUT = 600 // It should be the same transition time of the sections
       const body = document.querySelector('body')
       const sectionsQty = document.querySelectorAll('section').length
