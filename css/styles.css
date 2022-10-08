@@ -119,6 +119,7 @@ button:active {
   padding: 0 .5rem;
 }
 
+
 /* Particles.js */
 #particles-js{
   width: 100%;
@@ -319,7 +320,6 @@ a {
   padding-right: 2rem;
 }
 #footer-section {
-  
   position: fixed;
   left: 0;
   right: 0;

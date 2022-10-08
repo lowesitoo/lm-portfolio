@@ -5,11 +5,11 @@ var pText = "Full Stack Developer | ILO";
 var sectionList = ['s1','s2','s3','s4']
 var skillSetList = [{
     skill : "HTML5",
-    image : "html-5.png"
+    "image" : "images/html-5.png"
 },
 {
     skill : "CSS3",
-    image : "CSS3.png"
+    image : "images/CSS3.png"
 }
 ]
 function typeWriter()  {
@@ -100,4 +100,4 @@ for (let i = 0; i < skillSetList.length; i++) {
 function yearNow() {
   return new Date().toLocaleString('en-us',{year:'numeric'});
 }
-document.getElementById('footer-copy').innerHTML = "Antonio Luis Martinez © " + yearNow() +" | "+ "All rights reserved";"
+document.getElementById('footer-copy').innerHTML = "Antonio Luis Martinez © " + yearNow() +" | "+ "All rights reserved";
