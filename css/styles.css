@@ -108,6 +108,14 @@ button:active {
   transition:  transform .5s;
   
 }
+.skill-div h3 {
+  font-weight: 100;
+}
+.skill-div h3 span {
+  font-size: 24px;
+  font-weight: 600;
+  
+}
 .skill-div:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -321,7 +329,9 @@ a {
   padding-right: 2rem;
 }
 .skill-container img {
+  
   height: 75px;
+  align-items: center;
 }
 #footer-section {
   position: fixed;
