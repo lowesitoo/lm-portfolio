@@ -310,7 +310,8 @@ a {
 #contact-section {
   display: block;
   width: 100%;
-  height: 20%;
+  height: 94%;
+  position: fixed;
   background-color: #533483;
   text-align: center;
   padding-top: 4em;
