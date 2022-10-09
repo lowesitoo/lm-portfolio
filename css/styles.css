@@ -320,6 +320,9 @@ a {
 #contact-section h2{
   padding-right: 2rem;
 }
+.skill-container img {
+  height: 75px;
+}
 #footer-section {
   position: fixed;
   left: 0;
