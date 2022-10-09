@@ -328,10 +328,28 @@ a {
 #contact-section h2{
   padding-right: 2rem;
 }
+.skill-container {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 .skill-container img {
-  
   height: 75px;
   align-items: center;
+}
+.skill-container img:hover .tooltiptext {
+  visibility: visible;
 }
 #footer-section {
   position: fixed;
