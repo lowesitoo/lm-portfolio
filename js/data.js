@@ -90,12 +90,12 @@ const TIME_OUT = 600 // It should be the same transition time of the sections
     window.scroll(0, window.screen.height)
   }
 // Skills Section
-for (let i = 0; i < skillSetList.length; i++) {
-  let newImage = document.createElement("img");
-  let currentContainer = document.getElementsByClassName("skill-container");
-  newImage.src = skillSetList[i]["image"];
-  currentContainer.appendChild(newImage);
-} 
+// for (let i = 0; i < skillSetList.length; i++) {
+//   let newImage = document.createElement("img");
+//   let currentContainer = document.getElementsByClassName("skill-container");
+//   newImage.src = skillSetList[i]["image"];
+//   currentContainer.appendChild(newImage);
+// } 
 // Footer
 function yearNow() {
   return new Date().toLocaleString('en-us',{year:'numeric'});
