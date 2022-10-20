@@ -432,8 +432,32 @@ body::-webkit-scrollbar {
     font-size: 30px;
   }
 }
+
+/*************************************PC/Desktop*********************************/
+@media screen and (min-width:768px){
+  #home-header h1{
+    font-size: 4rem;
+  }
+  #home-header p ,#cursor{
+    font-size: 2rem;
+  }
+  .title, .seperator-symbol {
+    font-size: 4rem;
+  }
+  #about-me p, #about-me a{
+    font-size: 1.5rem;
+  }   
+}
+
+
 /*************************************iPhone 12 Pro*********************************/
 @media screen and (max-width:396px){
+  #home-header h1{
+    font-size: 2.5rem;
+  }
+  #home-header p ,#cursor{
+    font-size: 1.25rem;
+  }
   .title, .seperator-symbol {
     font-size: 2.8rem;
   }
@@ -443,6 +467,12 @@ body::-webkit-scrollbar {
 }
 /*************************************Samsung Galaxy S8+*****************************/
 @media screen and (max-width:366px){
+  #home-header h1{
+    font-size: 2.5rem;
+  }
+  #home-header p ,#cursor{
+    font-size: 1rem;
+  }
   .title, .seperator-symbol {
     font-size: 2.5rem;
   }
