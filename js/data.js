@@ -32,7 +32,7 @@ var cursor = true;
     }
   }, speed);
   //
-const TIME_OUT = 600 // It should be the same transition time of the sections
+  const TIME_OUT = 600 // It should be the same transition time of the sections
   const body = document.querySelector('body')
   const sectionsQty = document.querySelectorAll('section').length
   const sectionStick = document.querySelector('.section-stick')
@@ -89,13 +89,7 @@ const TIME_OUT = 600 // It should be the same transition time of the sections
     // Keep scrollbar in the middle of the viewport
     window.scroll(0, window.screen.height)
   }
-// Skills Section
-// for (let i = 0; i < skillSetList.length; i++) {
-//   let newImage = document.createElement("img");
-//   let currentContainer = document.getElementsByClassName("skill-container");
-//   newImage.src = skillSetList[i]["image"];
-//   currentContainer.appendChild(newImage);
-// } 
+
 // Footer
 function yearNow() {
   return new Date().toLocaleString('en-us',{year:'numeric'});
