@@ -72,11 +72,7 @@ button:active {
   transform: scale(0.98);
   background-color: rgba(0, 0, 0, .4);
 }
-@media screen and (max-width: 600px){
-    #about-content-wrapper p {
-      font-size: .2rem;
-    }   
-}
+
 #about-content-wrapper p {
   font-size: .2rem;
   display: flex;
@@ -144,7 +140,6 @@ button:active {
   size: .1rem;
   padding: 0 .5rem;
 }
-
 
 /* Particles.js */
 #particles-js{
@@ -436,4 +431,22 @@ body::-webkit-scrollbar {
   #author svg {
     font-size: 30px;
   }
+}
+/*************************************iPhone 12 Pro*********************************/
+@media screen and (max-width:396px){
+  .title, .seperator-symbol {
+    font-size: 2.8rem;
+  }
+  #about-me p, #about-me a{
+    font-size: 1.15rem;
+  }   
+}
+/*************************************Samsung Galaxy S8+*****************************/
+@media screen and (max-width:366px){
+  .title, .seperator-symbol {
+    font-size: 2.5rem;
+  }
+  #about-me p, #about-me a{
+    font-size: 1rem;
+  }   
 }
