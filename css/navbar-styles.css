@@ -1,37 +1,36 @@
 body {
-    background-color: rgba(0, 0, 0, .75);
-    font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-family: sans-serif;
 }
 .navbar-lists {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-.navbar-lists div {
-    width: 100%;
-    margin-bottom: 10px;
-    border-bottom: 1px solid white;
+.navbar-list-seperator {
+  width: 100%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
 }
 .navbar-lists ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 .navbar-lists li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .navbar-lists a {
-    text-decoration: none;
-    color: azure;
-    text-decoration: none;
-    font-size: 24px;
-    padding: 2px;
-    margin-bottom: 50px;
-    font-weight: 200;
-    transition: all .25s;
-    -webkit-transition: all .25s;
+  text-decoration: none;
+  color: azure;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 2px;
+  margin-bottom: 50px;
+  font-weight: 200;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
 }
-.navbar-lists a:hover{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #E94560;
-
+.navbar-lists a:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #e94560;
 }
