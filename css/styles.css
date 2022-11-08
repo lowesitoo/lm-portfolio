@@ -16,7 +16,8 @@
 #home-header h1 {
   font-size: 2rem;
 }
-#home-header p, span {
+#home-header p,
+span {
   font-size: 1rem;
 }
 #title-text {
@@ -45,8 +46,8 @@
   z-index: 0;
   border-radius: 40px;
   border: 1px solid #fff;
-  background-color: rgba(0, 0, 0, .7);
-  transition: background-color .5s;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: background-color 0.5s;
 }
 #navbar-btn:hover {
   background-color: rgba(0, 0, 0, 1);
@@ -63,21 +64,21 @@ button {
   z-index: 0;
   border-radius: 10px;
   border: 1px solid #fff;
-  transition: background-color .5s;
+  transition: background-color 0.5s;
 }
 button:hover {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 button:active {
   transform: scale(0.98);
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 #about-content-wrapper p {
-  font-size: .2rem;
+  font-size: 0.2rem;
   display: flex;
   flex-direction: row;
-}  
+}
 
 #about-me p {
   font-size: 1.5rem;
@@ -99,28 +100,25 @@ button:active {
   justify-content: center;
   font-weight: 400;
   font-size: 4rem;
-
 }
 .title .highlight-strong {
   font-weight: 700;
-  
 }
 .seperator-symbol {
   font-size: 4rem;
-  color: #E94560;
-  padding: 0 .3rem;
+  color: #e94560;
+  padding: 0 0.3rem;
 }
 .skill-div {
   border-radius: 10px;
-  border: 1px solid rgb(29, 29, 29);;
+  border: 1px solid rgb(29, 29, 29);
   padding: 0 1rem;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
   margin: 0 2rem;
-  transition:  transform .5s;
-  
+  transition: transform 0.5s;
 }
 .skill-div h3 {
   font-weight: 100;
@@ -128,7 +126,6 @@ button:active {
 .skill-div h3 span {
   font-size: 24px;
   font-weight: 600;
-  
 }
 .skill-div:hover {
   -webkit-transform: scale(1.1);
@@ -137,12 +134,12 @@ button:active {
 }
 
 .skill-div i {
-  size: .1rem;
-  padding: 0 .5rem;
+  size: 0.1rem;
+  padding: 0 0.5rem;
 }
 
 /* Particles.js */
-#particles-js{
+#particles-js {
   width: 100%;
   height: 80vh;
   background-size: cover;
@@ -266,16 +263,16 @@ body::-webkit-scrollbar {
 .layout .s1 {
   transform: translateY(0);
   z-index: 4;
-  background: linear-gradient(to left top,#533483, #E94560);
+  background: linear-gradient(to left top, #533483, #e94560);
 }
 
 .layout .s2 {
   z-index: 3;
-  background-image: url("../images/bg.webp"); 
+  background-image: url("../images/bg.webp");
   background-size: cover;
 }
 
- #about-me {
+#about-me {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -284,7 +281,7 @@ body::-webkit-scrollbar {
   padding-top: 5%;
 }
 #about-container {
-  display:  block;
+  display: block;
   position: relative;
   max-width: 640px;
   margin-right: auto;
@@ -302,13 +299,13 @@ body::-webkit-scrollbar {
   font-size: 24px;
   padding: 2px;
   font-weight: 200;
-  transition: all .25s;
-  -webkit-transition: all .25s;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
 }
 .hyperlink-text:hover {
   background-color: transparent;
   color: #fff;
-  border-bottom: 4px solid #E94560;
+  border-bottom: 4px solid #e94560;
 }
 .layout .s3 {
   z-index: 2;
@@ -320,7 +317,6 @@ body::-webkit-scrollbar {
   display: block;
   flex-wrap: wrap;
   margin-top: 5%;
-
 }
 .layout .s4 {
   z-index: 1;
@@ -337,7 +333,7 @@ body::-webkit-scrollbar {
   padding-top: 4em;
   padding-bottom: 4em;
 }
-#contact-section h2{
+#contact-section h2 {
   padding-right: 2rem;
 }
 .skill-container {
@@ -348,7 +344,7 @@ body::-webkit-scrollbar {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
- 
+
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
@@ -382,7 +378,7 @@ body::-webkit-scrollbar {
 }
 #footer-section strong {
   font-size: 4rem;
-  color: #E94560;
+  color: #e94560;
 }
 #author {
   margin: auto;
@@ -434,49 +430,57 @@ body::-webkit-scrollbar {
 }
 
 /*************************************PC/Desktop*********************************/
-@media screen and (min-width:768px){
-  #home-header h1{
+@media screen and (min-width: 768px) {
+  #home-header h1 {
     font-size: 4rem;
   }
-  #home-header p ,#cursor{
+  #home-header p,
+  #cursor {
     font-size: 2rem;
   }
-  .title, .seperator-symbol {
+  .title,
+  .seperator-symbol {
     font-size: 4rem;
   }
-  #about-me p, #about-me a{
+  #about-me p,
+  #about-me a {
     font-size: 1.5rem;
-  }   
+  }
 }
-
 
 /*************************************iPhone 12 Pro*********************************/
-@media screen and (max-width:396px){
-  #home-header h1{
+@media screen and (max-width: 396px) {
+  #home-header h1 {
     font-size: 2.5rem;
   }
-  #home-header p ,#cursor{
+  #home-header p,
+  #cursor {
     font-size: 1.25rem;
   }
-  .title, .seperator-symbol {
+  .title,
+  .seperator-symbol {
     font-size: 2.8rem;
   }
-  #about-me p, #about-me a{
+  #about-me p,
+  #about-me a {
     font-size: 1.15rem;
-  }   
+  }
 }
 /*************************************Samsung Galaxy S8+*****************************/
-@media screen and (max-width:366px){
-  #home-header h1{
+@media screen and (max-width: 366px) {
+  #home-header h1 {
     font-size: 2.5rem;
   }
-  #home-header p ,#cursor{
+  #home-header p,
+  #cursor {
     font-size: 1rem;
   }
-  .title, .seperator-symbol {
+  .title,
+  .seperator-symbol {
     font-size: 2.5rem;
   }
-  #about-me p, #about-me a{
+  #about-me p,
+  #about-me a {
     font-size: 1rem;
-  }   
+  }
 }
