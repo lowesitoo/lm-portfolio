@@ -93,6 +93,7 @@ button:active {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
+  flex-direction: column;
 }
 .title {
   display: flex;
@@ -115,10 +116,11 @@ button:active {
   padding: 0 1rem;
   display: flex;
   flex-wrap: nowrap;
-  flex-direction: row;
   align-items: center;
   margin: 0 2rem;
   transition: transform 0.5s;
+  width: 20%;
+  margin-bottom: 5%;
 }
 .skill-div h3 {
   font-weight: 100;
