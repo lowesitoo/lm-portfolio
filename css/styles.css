@@ -322,25 +322,6 @@ body::-webkit-scrollbar {
     flex-wrap: wrap;
     margin-top: 5%;
 }
-.layout .s4 {
-    z-index: 1;
-    background-color: var(--color-white);
-}
-
-#contact-section {
-    display: block;
-    width: 100%;
-    height: 20%;
-    position: fixed;
-    bottom: 8%;
-    background-color: #533483;
-    text-align: center;
-    padding-top: 4em;
-    padding-bottom: 4em;
-}
-#contact-section h2 {
-    padding-right: 2rem;
-}
 .skill-container {
     visibility: hidden;
     width: 120px;
@@ -364,6 +345,30 @@ body::-webkit-scrollbar {
 .skill-container img:hover .tooltiptext {
     visibility: visible;
 }
+.layout .s4 {
+    z-index: 1;
+    background-color: var(--color-white);
+}
+
+#contact-section {
+    display: block;
+    width: 100%;
+    height: 20%;
+    position: fixed;
+    bottom: 8%;
+    background-color: #533483;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+#contact-section h2 {
+    padding-right: 2rem;
+}
+#contact-btn {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #footer-section {
     position: fixed;
     left: 0;
@@ -384,24 +389,6 @@ body::-webkit-scrollbar {
 #footer-section strong {
     font-size: 4rem;
     color: #e94560;
-}
-#author {
-    margin: auto;
-    position: fixed;
-    bottom: 40px;
-    left: 40px;
-
-    display: flex;
-    column-gap: 10px;
-    align-items: center;
-
-    color: var(--color-white);
-    font-size: 25px;
-    z-index: 10;
-}
-
-#author svg {
-    font-size: 40px;
 }
 
 /************************************* RESPONSIVE ***************************************/
@@ -478,6 +465,7 @@ body::-webkit-scrollbar {
 }
 /*************************************Samsung Galaxy S8+*****************************/
 @media screen and (max-width: 366px) {
+    /* Section 1*/
     #home-header h1 {
         font-size: 2.5rem;
     }
@@ -488,6 +476,7 @@ body::-webkit-scrollbar {
     #name-border {
         width: 40vh;
     }
+    /* Section 2*/
     .title,
     .seperator-symbol {
         font-size: 2.5rem;
@@ -495,5 +484,25 @@ body::-webkit-scrollbar {
     #about-me p,
     #about-me a {
         font-size: 1rem;
+    }
+    /* Section 3*/
+
+    /* Section 4*/
+
+    #contact-section h2 {
+        font-size: 2rem;
+    }
+
+    #footer-section {
+        padding: 1rem 1rem;
+    }
+    #footer-section strong {
+        font-size: 1.75rem;
+        color: #e94560;
+    }
+    #footer-copy {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.65rem;
     }
 }
