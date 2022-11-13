@@ -1,6 +1,6 @@
 var initialCount = 0;
-var speed = 300;
-var typeSpeed = 200;
+var speed = 1000;
+var typeSpeed = 150;
 var pText = 'Full Stack Developer | ILO';
 var sectionList = ['s1', 's2', 's3', 's4'];
 var skillSetList = [
