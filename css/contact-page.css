@@ -1,4 +1,9 @@
-/* Style inputs with type="text", select elements and textareas */
+body {
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.container h2 {
+    border-bottom: 5px #ac3045;
+}
 input[type='text'],
 select,
 textarea {
