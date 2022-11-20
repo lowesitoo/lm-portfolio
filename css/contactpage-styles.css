@@ -48,7 +48,6 @@ input[type='submit']:hover {
 .container {
     display: flex;
     justify-content: center;
-
     padding: 2rem;
 }
 .socials-container {
