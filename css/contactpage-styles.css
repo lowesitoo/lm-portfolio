@@ -3,21 +3,19 @@ body {
     margin: 0;
 }
 .navbar-horizontal {
+    display: flex;
     position: sticky;
+    justify-content: space-around;
     left: 0;
     right: 0;
     top: 0;
     width: 100%;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1rem;
     background-color: rgb(68, 68, 68);
 }
 .navbar-horizontal strong {
     font-size: 2rem;
     color: #e94560;
-}
-.navbar-btn {
-    display: flex;
-    justify-content: flex-end;
 }
 input[type='text'],
 select,
