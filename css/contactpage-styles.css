@@ -15,7 +15,10 @@ body {
     font-size: 2rem;
     color: #e94560;
 }
-
+.navbar-btn {
+    display: flex;
+    justify-content: flex-end;
+}
 input[type='text'],
 select,
 textarea {
@@ -55,11 +58,4 @@ input[type='submit']:hover {
 }
 .socials-container ul li {
     list-style: none;
-}
-.socials-container ul li a {
-    display: inline-block;
-    align-items: center;
-    font-weight: 600;
-    text-decoration: none;
-    background-color: transparent;
 }
