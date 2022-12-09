@@ -13,14 +13,17 @@ var skillSetList = [
         image: 'images/CSS3.png',
     },
 ];
-function typeWriter() {
+typeWriter(() => {
     if (initialCount < pText.length) {
         document.getElementById('p-typewriter').innerHTML +=
             pText.charAt(initialCount);
         initialCount++;
         setTimeout(typeWriter, typeSpeed);
     }
-}
+});
+fadeInAnim(() => {
+    
+})
 // Blinking Cursor
 var cursor = true;
 setInterval(() => {
