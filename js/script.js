@@ -1,7 +1,8 @@
+// Variables
 var initialCount = 0;
 var speed = 1000;
 var typeSpeed = 150;
-var pText = 'Full Stack Developer | ILO';
+var introText = 'Full Stack Developer | ILO';
 var sectionList = ['s1', 's2', 's3', 's4'];
 var skillSetList = [
     {
@@ -14,15 +15,22 @@ var skillSetList = [
     },
 ];
 function typeWriter() {
-    if (initialCount < pText.length) {
+    if (initialCount < introText.length) {
         document.getElementById('p-typewriter').innerHTML +=
-            pText.charAt(initialCount);
+            introText.charAt(initialCount);
         initialCount++;
         setTimeout(typeWriter, typeSpeed);
     }
 }
 function fadeAnim() {
     console.log('test');
+}
+function onOverlay() {
+    document.getElementById('overlay').style.display = 'block';
+}
+
+function offOverlay() {
+    document.getElementById('overlay').style.display = 'none';
 }
 // Blinking Cursor
 var cursor = true;
