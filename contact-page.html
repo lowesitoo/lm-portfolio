@@ -11,10 +11,21 @@
     <body onload="typeWriter();">
         <div class="navbar-horizontal">
             <strong>ALM</strong>
-            <div id="navbar-btn" type="button">
-                <a href="navbar-page.html"
-                    ><img src="images/navbar-logo.png" alt="navbar-logo"
-                /></a>
+            <div id="navbar-btn" onclick="onOverlay()" type="button">
+                <img src="images/navbar-logo.png" alt="navbar-logo" />
+            </div>
+        </div>
+        <div id="overlay" onclick="offOverlay()">
+            <div class="navbar-lists" id="text">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <div class="navbar-list-seperator"></div>
+                    <li>
+                        <a href="contact-page.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="container">
@@ -82,6 +93,6 @@
             </div>
         </div>
 
-        <script src="js/data.js" async defer></script>
+        <script src="js/script.js" async defer></script>
     </body>
 </html>

@@ -15,16 +15,27 @@
         ></script>
         <link rel="stylesheet" href="css/styles.css" />
     </head>
-    <body onload="typeWriter();">
+    <body onload="typeWriter()">
         <div class="layout">
             <div class="section-stick">
                 <div class="stick active"></div>
             </div>
             <section class="s1" id="s1">
-                <div id="navbar-btn" type="button">
-                    <a href="navbar-page.html"
-                        ><img src="images/navbar-logo.png" alt="navbar-logo"
-                    /></a>
+                <div id="navbar-btn" type="button" onclick="onOverlay()">
+                    <img src="images/navbar-logo.png" alt="navbar-logo" />
+                </div>
+                <div id="overlay" onclick="offOverlay()">
+                    <div class="navbar-lists" id="text">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <div class="navbar-list-seperator"></div>
+                            <li>
+                                <a href="contact-page.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div id="particles-js"></div>
                 <div id="home-header">
@@ -73,7 +84,7 @@
                             I'm always striving for greateness.
                         </p>
                     </div>
-                </div>  
+                </div>
             </section>
             <section class="s3" id="s3">
                 <button onclick="fadeAnim();">Heyaaaaaaaa</button>
@@ -128,7 +139,8 @@
                 </div>
             </section>
         </div>
-        <script src="js/data.js" async defer></script>
+
+        <script src="js/script.js" async defer></script>
         <script src="particles.js"></script>
         <script src="js/app.js"></script>
     </body>

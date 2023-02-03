@@ -75,6 +75,62 @@ button:active {
     transform: scale(0.98);
     background-color: rgba(0, 0, 0, 0.4);
 }
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 999;
+    cursor: pointer;
+}
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+/* Navbar Page */
+.navbar-lists {
+    display: flex;
+    justify-content: center;
+}
+.navbar-list-seperator {
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.navbar-lists ul {
+    list-style-type: none;
+}
+.navbar-lists li {
+    margin-bottom: 10px;
+}
+.navbar-lists a {
+    text-align: center;
+    text-decoration: none;
+    color: azure;
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: 2px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+.navbar-lists a:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #e94560;
+}
 
 #about-content-wrapper p {
     font-size: 0.2rem;
