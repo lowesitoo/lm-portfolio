@@ -57,6 +57,7 @@ input[type='submit']:hover {
 .socials-container ul li {
     list-style: none;
 }
+
 #navbar-btn {
     max-width: 40px;
     max-height: 40px;
@@ -100,6 +101,7 @@ input[type='submit']:hover {
 .navbar-lists {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .navbar-list-seperator {
     width: 100%;
